@@ -1,7 +1,14 @@
+<!--
+ * @Author: jialiangzou
+ * @Date: 2022-10-13 20:38:37
+ * @LastEditors: jialiangzou
+ * @LastEditTime: 2022-10-19 21:43:45
+ * @FilePath: /lowcode-web/src/components/HelloWorld.vue
+-->
 <script setup lang="ts">
 defineProps<{
-  msg: string
-}>()
+  msg: string;
+}>();
 </script>
 
 <template>
@@ -10,7 +17,8 @@ defineProps<{
     <h3>
       You’ve successfully created a project with
       <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>. What's next?
+      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
+      What's next?
     </h3>
   </div>
 </template>
